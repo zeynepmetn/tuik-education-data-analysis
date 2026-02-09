@@ -1,0 +1,72 @@
+Statistical Data Analysis and Visualization of Education Data from TÜİK
+1. Project Overview
+
+The aim of this project is to collect, analyze, and visualize education and demographic data obtained from the official website of the Turkish Statistical Institute (TÜİK). The project primarily focuses on literacy rates and demographic characteristics, with the objective of performing data-driven analysis and visualization.
+
+The main research question of the study is:
+How are literacy rates distributed across provinces in Turkey, and how do these distributions differ by gender?
+
+Data collection was carried out using the Selenium library to automatically scrape data from the TÜİK website. During the data extraction process, dynamic web content was handled by waiting for page elements to load before retrieving the required education-related demographic data. The collected data was processed using Pandas, and visualizations were created using Matplotlib and Seaborn.
+
+2. Data Analysis
+Descriptive Statistics and Visualizations
+
+Initially, the dataset was cleaned and organized using Pandas. During the analysis process, the following visualizations were generated:
+
+Bar Charts:
+These charts illustrate the distribution of literacy rates for males and females across provinces. They allow for a clear comparison of educational status based on gender.
+
+Pie Chart:
+This visualization presents the percentage distribution of literacy status among males and females. The chart provides a general overview of literacy conditions within the population by clearly displaying proportional differences.
+
+Line Charts:
+Line graphs were used to visualize the distribution of literate and illiterate populations across provinces. These charts provide insights into educational development and trends.
+
+Heat Map:
+A heat map was created to display the distribution of illiterate populations by province. This visualization helps identify regions that may require increased educational investment.
+
+General Statistical Calculations
+
+The following fundamental statistical measures were calculated to better understand the dataset:
+
+Mean: The average value of literacy-related data for each district.
+
+Median: The central value of the dataset.
+
+Standard Deviation: A measure of variability within the data.
+
+Variance: Another indicator of data dispersion.
+
+Minimum and Maximum Values: The lowest and highest observed values.
+
+Count: The total number of observations.
+
+These statistical measures provide a comprehensive understanding of the overall structure and distribution of the data.
+
+Correlation Analysis
+
+A correlation analysis was conducted to examine relationships between different variables. The Pearson correlation coefficient was calculated to assess linear relationships among literacy rates, gender, age groups, and educational status. High correlation values help reveal how these variables interact and influence one another.
+
+3. Results and Discussion
+
+The findings of the project provide valuable insights into literacy rates across different provinces in Turkey. Significant differences between male and female literacy rates were observed, highlighting gender-based educational disparities as well as regional inequalities.
+
+The visualizations indicate that certain provinces have a higher proportion of illiterate populations, suggesting that these regions may benefit from targeted educational reforms and investments.
+
+Significance of the Findings
+
+These results can play an important role in shaping educational policies. In regions where illiteracy rates are high, improvements in educational infrastructure and the allocation of additional educational resources may be necessary.
+
+Limitations
+
+The primary limitation of this study is that it is based on a single dataset and focuses solely on education-related variables. Additionally, since demographic data may change over time, more dynamic and up-to-date analyses could provide deeper insights. Future studies may incorporate larger datasets and additional variables to achieve more comprehensive results.
+
+4. References
+
+Selenium Library: Used for web scraping. Official Selenium documentation and learning resources were referenced.
+
+Pandas Library: Used for data processing and manipulation.
+
+Matplotlib and Seaborn: Used for data visualization. Official documentation and visualization techniques were referenced.
+
+TÜİK: The data source for this project. All data was obtained from the official TÜİK website.
